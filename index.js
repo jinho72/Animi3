@@ -13,7 +13,8 @@ import * as THREE from "https://unpkg.com/three@0.160.0/build/three.module.js";
 // MediaPipe Tasks Vision: FaceDetector + FilesetResolver
 import {
   FilesetResolver,
-  FaceDetector
+  FaceDetector,
+  FaceLandmarker
 } from "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.0/vision_bundle.js";
 
 // ---------- BACKGROUND MUSIC TRACKS ----------
